@@ -1,8 +1,8 @@
 /* Reset some default styling */
-body, h1, h2, p, ul, li {
+body, h2, ul, li {
     margin: 0;
     padding: 0;
-    color: black;
+    
   }
   
   /* Basic styling */
@@ -12,7 +12,11 @@ body, h1, h2, p, ul, li {
     padding: 1rem;
     text-align: center;
   }
-  
+  .header h1{
+   
+     color: black;
+    
+  }
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -38,17 +42,22 @@ body, h1, h2, p, ul, li {
   }
   
   .hero {
-    background-image: url('hero-image.jpg');
+    background-color: black;
     background-size: cover;
     background-position: center;
-    color: #fff;
-    text-align: center;
+    color: #f1e9e9;
+    text-align: center;       
     padding: 5rem 0;
   }
   
   .hero-content {
     max-width: 800px;
     margin: 0 auto;
+   
+  }
+
+  .hero-content p,h1{
+    color: #fff;
   }
   
   .cta-button {
@@ -65,16 +74,24 @@ body, h1, h2, p, ul, li {
     display: flex;
     justify-content: space-around;
     padding: 4rem 0;
+    background-color: black;
   }
   
   .feature {
     text-align: center;
   }
+
+  
+.feature h2,p {
+  color:#fff;
+}
   
   .footer {
     background-color: #dcbb02;
-    color: #fff; #dcbb02;
+    color: #dcbb02;
     text-align: center;
     padding: 1rem 0;
   }
-  
+  .footer p {
+    color:black;
+  }
